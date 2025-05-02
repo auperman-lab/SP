@@ -2,11 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Parametri
-Ts = 0.01  # Perioada de eşantionare
-T = 50     # Durata totală
-t = np.arange(0, T + Ts, Ts)  # Vectorul de timp
+Ts = 0.01
+T = 50
+t = np.arange(0, T + Ts, Ts)
 
-# Generarea zgomotului alb (valori aleatoare între 0 și 1)
 x1 = np.random.rand(len(t))
 
 # Afişarea semnalului zgomotos
